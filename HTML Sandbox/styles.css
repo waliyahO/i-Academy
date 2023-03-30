@@ -1,0 +1,97 @@
+/* 
+k
+i 
+,
+<
+*/
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+body {
+    background-color: #a9a9a9;
+    padding:50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    /* box-sizing: border-box; */
+    /* box-sizing: content-box; */
+}
+header {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 3px 1px 7px rgba(0,0,0,0.84);
+}
+/* multiple selectors */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Berkshire Swash', cursive;;
+}
+/* p{
+    text-align: justify;
+} */
+nav{
+    background-color: #ff80ff;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}   
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+nav>input{
+    font-size: 10px;
+    height: 20px;
+    width: 150px;
+    border: none;
+    padding: 0;
+    padding-left: 5px;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 20px;
+    width: 50px;
+    font-size: 10px;
+}
+main {
+    display: flex;
+    padding-top: 12px;
+}
+section{
+    background-color: white;
+    width: 75%;
+    padding: 7px;
+}
+.header{
+    text-align: center;
+}
+aside{
+    width: 25%;
+    background-color: #ff80ff;
+    padding: 15px;
+    margin-left: 8px;
+}
+aside>ul>li{
+    padding: 5px;
+}
+aside>h2{
+    text-align: center;
+    padding-right: 5px;
+}
+footer{
+    background-color: white;
+    height: 48px;
+    margin: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+footer>p{
+    padding: 5px;
+    justify-content: space-between;
+}

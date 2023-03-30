@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Media/embedding: Task 1</title>
+  </head>
+
+  <body>
+    <h1>Basic audio embed</h1>
+
+    <audio controls>
+      <source src="media/audio.mp3" type="audio/mp3">
+      <p>Download <a href="media/audio.mp3">audio</a></p>
+    </audio>
+    <h1>Basic video embedded</h1>
+
+    <video
+      controls
+      height="240"
+      width="320"
+      muted
+      >
+      <source src="media/video.mp4" type="video/mp4">
+      <source src="media/video.webm" type="video/webm">
+      <track kind="subtitles" src="media/subtitles_en.vtt" srclang="en" label="english"/>
+    </video>
+
+    <h1>Embedding</h1>
+    <!-- PDF embedded here -->
+    <object data="media/mypdf.pdf" type="application/pdf"></object>
+    <hr>
+    <iframe width="560" height="315" src="https://youtube.com/embed/ymcXLg2TPK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+    <iframe width="560" height="315" src="https://youtube.com/embed/Rpe4NvBCDkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+  </body>
+
+</html>

@@ -1,0 +1,65 @@
+/* .resultCircle{
+    font-size: 18px;    
+} */
+
+/* .scoreCircle{
+    padding-top: 20px;
+    line-height: 2px;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)
+     );
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 100px;
+} */
+
+/* .scoreCircle>h1{
+    font-size: 53px;
+}
+
+.remarks{
+    justify-content: center;
+    padding-top: 180px;
+} */
+
+/* main>section{
+    padding: 30px;
+    width: 500px;
+    background-color: hsl(0, 0%, 100%);
+    /* background-color: antiquewhite; */
+}  */
+/* .reaction{
+    background-color: hsl(0, 100%, 91%);
+    color: hsl(0, 100%, 67%);
+    display: flex;
+    margin-top: 20px;
+} */
+
+/* .memory{
+    background-color: hsl(39, 100%, 91%);
+    color: hsl(39, 100%, 56%);
+    display: flex;
+    margin-top: 20px;
+
+} */
+
+/* .verbal{
+    background-color: hsl(166, 100%, 91%);
+    color: hsl(166, 100%, 37%);
+} */
+
+/* .visual{
+    background-color: hsl(234, 85%, 91%);
+    color: hsl(234, 85%, 45%);
+    
+} */
+
+/* button{
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 150px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid hsl(224, 30%, 27%);
+    border-radius: 520px;
+} */

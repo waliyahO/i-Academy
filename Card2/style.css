@@ -1,0 +1,83 @@
+/* 
+k
+i 
+,
+<
+*/
+
+body {
+    background-color: aquamarine;
+    padding: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    background-color: plum;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside1{
+    padding: 20px;
+    background-color: palevioletred;
+    height: 500px;
+}
+
+.aside1 > h1{
+    background-color: antiquewhite;
+}
+
+.aside1> h2{
+    background-color: blueviolet;
+    border-style: groove;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.aside1>p{
+    background-color: antiquewhite;
+}
+
+.aside2{
+    background-color: palegoldenrod;
+    height: 500px;
+}
+.aside2>h3{
+    background-color: rgb(151, 142, 142);
+}
+.aside2>ul{
+    list-style-type: none;
+    padding: 80px;
+}
+.aside2>li{
+}
+.l1{
+    background-color: pink;
+}
+
+.l2{
+    background-color: rgb(192, 246, 255);
+}
+
+.l3{
+    background-color: rgb(251, 255, 192);
+}
+
+.l4{
+    background-color: rgb(235, 192, 255);
+}
+
+.aside2>button{
+    margin-top: 0px;
+    border-style: none;
+    width: 100px;
+    height: 30px;
+}
